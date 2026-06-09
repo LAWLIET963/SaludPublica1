@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Contacto - Salud Pública</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="img/inicial-portada.png" alt="Logo Salud Pública" class="logo-img">
+                </a>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="navbar-link">Inicio</a></li>
+                <li><a href="servicios.html" class="navbar-link">Servicios</a></li>
+                <li><a href="about.html" class="navbar-link">Acerca de</a></li>
+                <li><a href="contacto.html" class="navbar-link active">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido Contacto -->
+    <section class="content-section">
+        <div class="content-container">
+            <h1 class="subtitle">Contáctanos</h1>
+            <p class="paragraph">¿Tienes preguntas? Nos gustaría escucharte. Contáctanos de cualquiera de las siguientes formas.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Información de Contacto</h2>
+                <div class="contact-item">
+                    <h3>📧 Email</h3>
+                    <p><a href="mailto:andresmeraz082712@gmail.com">andresmeraz082712@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>📞 Teléfono</h3>
+                    <p><a href="tel:+521951588704">+52 1 951 588 7041</a></p>
+                </div>
+            
+            </div>
+
+            <form class="contact-form" action="https://formspree.io/f/andresmeraz082712@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Teléfono (Opcional)</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Gracias por visitarnos</h3>
+                <p>Nuestro compromiso es mejorar la salud y el bienestar de nuestras comunidades a través de educación, prevención y promoción de estilos de vida saludables.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Navegación</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/nqmdpr__/?utm_source=ig_web_button_share_sheet" target="_blank" class="social-icon instagram" title="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37"></path>
+                            <circle cx="17.5" cy="6.5" r="1.5"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/521951588704" target="_blank" class="social-icon whatsapp" title="WhatsApp">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </a>
+                    <a href="mailto:lawliet93681@gmail.com" target="_blank" class="social-icon email" title="Email">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                            <path d="M22 6l-10 5L2 6"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Salud Pública. Todos los derechos reservados. | Diseñado con ❤️ para la salud comunitaria</p>
+        </div>
+    </footer>
+</body>
+</html>
